@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "creationcore:backpack_creative_crafting_upgrade",
+      "required": false
+    }
+  ]
+}

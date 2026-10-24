@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.creationcore.compat.mixin",
+  "plugin": "dev.creationcore.compat.mixin.OptionalMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["SophisticatedCraftingMixin", "SophisticatedResultMixin", "BeyondCraftingMixin", "BeyondResultMixin",
+    "TomsConnectorAccessor", "TomsStorageMenuAccessor", "TomsTableNodeMixin", "TomsCraftingMixin", "TomsCraftingMenuMixin"],
+  "injectors": {"defaultRequire": 1}
+}

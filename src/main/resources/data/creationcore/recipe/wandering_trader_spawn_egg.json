@@ -1,0 +1,29 @@
+{
+  "type": "creationcore:creative_crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:villager_spawn_egg"
+    },
+    {
+      "type": "neoforge:components",
+      "items": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:invisibility"
+        }
+      },
+      "strict": false
+    }
+  ],
+  "result": {
+    "id": "minecraft:wandering_trader_spawn_egg",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:wandering_trader_spawn_egg"
+    }
+  ]
+}

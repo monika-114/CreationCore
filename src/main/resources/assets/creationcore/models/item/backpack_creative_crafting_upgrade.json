@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "creationcore:item/backpack_creative_crafting_upgrade"
+  }
+}

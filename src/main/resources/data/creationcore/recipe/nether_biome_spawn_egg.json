@@ -1,0 +1,21 @@
+{
+  "type": "creationcore:creative_crafting",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:netherrack"
+    },
+    "B": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "id": "creationcore:nether_biome_spawn_egg",
+    "count": 1
+  }
+}

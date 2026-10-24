@@ -1,0 +1,33 @@
+{
+  "type": "creationcore:creative_crafting",
+  "pattern": [
+    "ABA",
+    " C ",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "item": "sophisticatedstorage:crafting_upgrade"
+    },
+    "C": {
+      "item": "creationcore:creative_core"
+    }
+  },
+  "result": {
+    "id": "creationcore:storage_creative_crafting_upgrade",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "sophisticatedstorage"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "creationcore:storage_creative_crafting_upgrade"
+    }
+  ]
+}

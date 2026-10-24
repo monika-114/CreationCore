@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "creationcore:wetland_biome_spawn_egg"
+  },
+  "result": {
+    "id": "minecraft:creeper_spawn_egg",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:creeper_spawn_egg"
+    }
+  ]
+}

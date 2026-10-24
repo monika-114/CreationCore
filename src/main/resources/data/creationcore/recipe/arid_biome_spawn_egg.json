@@ -1,0 +1,26 @@
+{
+  "type": "creationcore:creative_crafting",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": [
+      {
+        "item": "minecraft:sand"
+      },
+      {
+        "item": "minecraft:red_sand"
+      }
+    ],
+    "B": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "id": "creationcore:arid_biome_spawn_egg",
+    "count": 1
+  }
+}

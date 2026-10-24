@@ -1,0 +1,28 @@
+{
+  "type": "creationcore:creative_crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:ominous_bottle"
+    },
+    {
+      "item": "minecraft:vault"
+    }
+  ],
+  "result": {
+    "id": "minecraft:vault",
+    "count": 1,
+    "components": {
+      "minecraft:block_state": {
+        "ominous": "true"
+      },
+      "minecraft:item_name": "{\"translate\": \"item.creationcore.ominous_vault\"}"
+    }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:vault"
+    }
+  ]
+}

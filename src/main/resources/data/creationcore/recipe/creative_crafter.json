@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "creationcore:creative_core"
+  },
+  "base": {
+    "item": "minecraft:crafter"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "creationcore:creative_crafter",
+    "count": 1
+  }
+}

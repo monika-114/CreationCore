@@ -1,0 +1,14 @@
+// Opt-in client startup check. Nothing from this source set enters the release JAR.
+gradle.projectsEvaluated {
+    def p = gradle.rootProject
+    p.configurations.localRuntime.exclude group: 'mezz.jei'
+    def mods = p.fileTree(p.property('clientTestMods')) { include '*.jar' }
+    p.dependencies.add('localRuntime', mods)
+    def checks = p.sourceSets.create('clientStartupCheck')
+    checks.java.srcDir('tools/client-startup-check')
+    checks.compileClasspath += p.sourceSets.main.compileClasspath + p.sourceSets.main.output
+    checks.runtimeClasspath += checks.compileClasspath
+    p.neoForge.mods.creationcore.sourceSet(checks)
+    p.tasks.named('compileClientStartupCheckJava').configure { dependsOn p.tasks.named('classes') }
+    p.tasks.named('runClient').configure { dependsOn p.tasks.named('clientStartupCheckClasses') }
+}

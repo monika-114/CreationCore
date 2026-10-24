@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "creationcore:item/wetland_biome_spawn_egg"
+  }
+}

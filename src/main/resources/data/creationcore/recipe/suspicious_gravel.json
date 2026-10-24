@@ -1,0 +1,33 @@
+{
+  "type": "creationcore:creative_crafting",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:gravel"
+    },
+    "B": {
+      "item": "minecraft:decorated_pot"
+    }
+  },
+  "result": {
+    "id": "minecraft:suspicious_gravel",
+    "count": 4,
+    "components": {
+      "minecraft:block_entity_data": {
+        "id": "minecraft:brushable_block",
+        "LootTable": "creationcore:archaeology/crafted_suspicious_gravel"
+      }
+    }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:suspicious_gravel"
+    }
+  ]
+}

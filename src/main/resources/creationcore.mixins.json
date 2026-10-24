@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.creationcore.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockStateBaseMixin",
+    "LightBlockMixin",
+    "ServerPlayerGameModeMixin",
+    "WitherBossMixin",
+    "CrafterBlockMixin",
+    "CrafterMenuMixin",
+    "CrafterBlockEntityMixin",
+    "FluidPlacementMixin",
+    "RecipeManagerMixin",
+    "ContainerCraftingClickMixin"
+  ],
+  "client": [
+    "client.ClientLevelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

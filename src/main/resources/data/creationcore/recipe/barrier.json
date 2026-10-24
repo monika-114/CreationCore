@@ -1,0 +1,27 @@
+{
+  "type": "creationcore:creative_crafting",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:bedrock"
+    },
+    "B": {
+      "item": "creationcore:blank_matter"
+    }
+  },
+  "result": {
+    "id": "minecraft:barrier",
+    "count": 8
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:barrier"
+    }
+  ]
+}

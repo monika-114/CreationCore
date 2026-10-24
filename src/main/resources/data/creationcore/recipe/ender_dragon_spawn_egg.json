@@ -1,0 +1,36 @@
+{
+  "type": "creationcore:creative_crafting",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:end_crystal"
+    },
+    "B": {
+      "item": "minecraft:dragon_breath"
+    },
+    "C": {
+      "item": "minecraft:elytra"
+    },
+    "D": {
+      "item": "creationcore:end_biome_spawn_egg"
+    },
+    "E": {
+      "item": "minecraft:dragon_head"
+    }
+  },
+  "result": {
+    "id": "minecraft:ender_dragon_spawn_egg",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:ender_dragon_spawn_egg"
+    }
+  ]
+}

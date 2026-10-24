@@ -1,0 +1,15 @@
+// Development-only Create checks; third-party mods are never bundled in the release.
+gradle.projectsEvaluated {
+    def p = gradle.rootProject
+    def mods = p.fileTree(p.property('createTestMods')) { include '*.jar' }
+    def api = p.fileTree(p.property('createNestedJars')) { include '*.jar' }
+    p.dependencies.add('localRuntime', mods)
+    def checks = p.sourceSets.create('createChecks')
+    checks.java.srcDir('tools/create-checks')
+    checks.java.srcDir('tools/fluid-checks')
+    checks.compileClasspath += p.sourceSets.main.compileClasspath + p.sourceSets.main.output + mods + api
+    checks.runtimeClasspath += checks.compileClasspath
+    p.neoForge.mods.creationcore.sourceSet(checks)
+    p.tasks.named('compileCreateChecksJava').configure { dependsOn p.tasks.named('classes') }
+    p.tasks.named('runServer').configure { dependsOn p.tasks.named('createChecksClasses') }
+}

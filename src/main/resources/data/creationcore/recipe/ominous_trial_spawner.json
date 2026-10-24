@@ -1,0 +1,28 @@
+{
+  "type": "creationcore:creative_crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:ominous_bottle"
+    },
+    {
+      "item": "minecraft:trial_spawner"
+    }
+  ],
+  "result": {
+    "id": "minecraft:trial_spawner",
+    "count": 1,
+    "components": {
+      "minecraft:block_state": {
+        "ominous": "true"
+      },
+      "minecraft:item_name": "{\"translate\": \"item.creationcore.ominous_trial_spawner\"}"
+    }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:trial_spawner"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+PASS: real AE2 pattern terminal installed on glass cable
+PASS: real AE2 fluid storage cell accepts core void fluid alongside item storage
+PASS: AE2 fluid cell returns exact void amounts through its native fluid key
+PASS: manual exclusive recipe has no preview without an online table
+PASS: manual crafting without a table produces nothing and preserves ingredients
+PASS: exclusive crafting pattern cannot be encoded without an online table
+PASS: rejected encoding does not consume blank patterns
+PASS: exclusive recipes never leak into ordinary workbench recipe type
+PASS: ordinary patterns still encode without a table
+PASS: ordinary pattern is accepted by a real molecular assembler without a table
+PASS: ordinary molecular assembly completes and returns four planks without a table
+PASS: unchanged manual crafting grid gains preview when table comes online
+PASS: manual crafting terminal gives all eight products to cursor
+PASS: manual craft consumes exactly one complete exclusive input grid
+PASS: manual Shift crafting returns sixteen products and consumes two complete batches
+PASS: manual Shift crafting refills from ME storage and consumes exactly three batches for twenty-four products
+PASS: offset manual tadpole recipe returns exactly one empty bucket
+PASS: manual disc copy preserves original and copied disc components without duplication beyond recipe output
+PASS: full player inventory rejects manual Shift craft without consuming ingredients
+PASS: ordinary manual recipes still craft with an online creative table
+PASS: creative table is powered and requires a channel
+PASS: adding the table increases network channel use by exactly one
+PASS: network crafter retains native inventory and disabled slots through full NBT reload
+PASS: network crafter retains vanilla entity type for existing save compatibility
+PASS: network table saves and reloads its own block entity type
+PASS: ordinary cached recipe survives table becoming online in the same open terminal
+PASS: right-click regression seeds real ME storage with sixteen logs
+PASS: ME-extracted log right-click into ghost grid encodes ordinary planks with online table without consuming cursor items
+PASS: 32 repeated empty-to-ordinary ghost edits and fluid-substitution checks terminate with online table
+PASS: offset shapeless pattern retains empty-bucket remainder for AE2 scheduling
+PASS: disc copy encoded output retains original components
+PASS: disc pattern returns the original component-bearing disc
+PASS: real terminal encodes exclusive recipe as a native AE2 crafting pattern
+PASS: encoded pattern preserves eight-item recipe output
+PASS: online table authorizes exclusive molecular assembly
+PASS: assembler receives exactly one complete input grid
+PASS: stale manual output click immediately after table removal is rejected without consuming materials
+PASS: same open crafting terminal clears preview after table removal
+PASS: removing table mid-craft immediately preserves ingredients and progress
+PASS: paused exclusive craft produces nothing while table is absent
+PASS: same open terminal invalidates its cached creative recipe when table is removed
+PASS: isolated powered table consumes exactly one channel
+PASS: online table in a separate ME network cannot authorize this terminal or assembler
+PASS: manual terminal cannot use an online creative table in another network
+PASS: reconnecting table resumes the held craft exactly once and returns its output
+PASS: open terminal can encode again after table reconnects
+PASS: same open manual terminal restores unchanged preview when table reconnects
+PASS: ME storage receives exact materials for a 128-item native crafting job
+PASS: AE2 calculates native crafting job for exclusive recipe
+PASS: real ME crafting CPU accepts exclusive crafting job
+PASS: all 128 exclusive products return through native assemblers with exact material consumption
+PASS: assembler finishes with no leftover inputs and keeps native acceleration cards
+PASS: unloading the table chunk revokes authorization
+PASS: table reloaded from saved node data restores authorization
+PASS: loss of ME power disables table authorization
+PASS: unpowered network cannot start exclusive molecular assembly
+PASS: missing channels disable the table authorization
+PASS: offline assembler rejects exclusive pattern without consuming a supplied batch
+ALL NETWORK CHECKS PASSED in 271 ticks

@@ -1,0 +1,10 @@
+PASS: redstone pulse crafts exclusive biome egg into front chest
+PASS: exclusive redstone craft consumes exact input batch
+PASS: ordinary redstone crafter cannot execute exclusive recipe
+PASS: ordinary bottling outputs four bottles and returns empty bucket
+PASS: redstone disc copying returns original and one copy
+PASS: current blank-matter barrier recipe outputs eight barriers
+PASS: ordinary crafter makes blank matter and returns glass bottle
+PASS: hopper feeds the only enabled crafter slot
+PASS: hopper-fed crafter still outputs four planks after redstone pulse
+ALL REDSTONE CHECKS PASSED

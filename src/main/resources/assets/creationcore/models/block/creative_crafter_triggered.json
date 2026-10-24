@@ -1,0 +1,9 @@
+{
+  "parent": "creationcore:block/creative_crafter",
+  "textures": {
+    "top": "creationcore:block/creative_crafter_top_active",
+    "south": "creationcore:block/creative_crafter_side_active",
+    "west": "creationcore:block/creative_crafter_side_active",
+    "east": "creationcore:block/creative_crafter_side_active"
+  }
+}

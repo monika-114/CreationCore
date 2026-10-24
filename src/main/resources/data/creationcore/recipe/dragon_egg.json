@@ -1,0 +1,30 @@
+{
+  "type": "creationcore:creative_crafting",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "B": {
+      "item": "minecraft:sniffer_egg"
+    },
+    "C": {
+      "item": "creationcore:creative_matter"
+    }
+  },
+  "result": {
+    "id": "minecraft:dragon_egg",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:dragon_egg"
+    }
+  ]
+}

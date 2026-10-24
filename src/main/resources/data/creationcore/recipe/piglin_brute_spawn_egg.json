@@ -1,0 +1,22 @@
+{
+  "type": "creationcore:creative_crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:piglin_spawn_egg"
+    },
+    {
+      "item": "minecraft:golden_axe"
+    }
+  ],
+  "result": {
+    "id": "minecraft:piglin_brute_spawn_egg",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:piglin_brute_spawn_egg"
+    }
+  ]
+}

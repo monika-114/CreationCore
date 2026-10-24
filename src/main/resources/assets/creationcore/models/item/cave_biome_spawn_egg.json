@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "creationcore:item/cave_biome_spawn_egg"
+  }
+}

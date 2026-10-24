@@ -1,0 +1,27 @@
+{
+  "type": "creationcore:creative_crafting",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:cracked_stone_bricks"
+    },
+    "B": {
+      "item": "minecraft:silverfish_spawn_egg"
+    }
+  },
+  "result": {
+    "id": "minecraft:infested_cracked_stone_bricks",
+    "count": 8
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:infested_cracked_stone_bricks"
+    }
+  ]
+}

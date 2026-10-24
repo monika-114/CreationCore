@@ -1,0 +1,29 @@
+{
+  "type": "creationcore:creative_crafting",
+  "category": "misc",
+  "pattern": [
+    "A ",
+    "BC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:blue_carpet"
+    },
+    "B": {
+      "item": "minecraft:llama_spawn_egg"
+    },
+    "C": {
+      "item": "minecraft:lead"
+    }
+  },
+  "result": {
+    "id": "minecraft:trader_llama_spawn_egg",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:trader_llama_spawn_egg"
+    }
+  ]
+}

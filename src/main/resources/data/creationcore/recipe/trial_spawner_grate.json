@@ -1,0 +1,82 @@
+{
+  "type": "creationcore:creative_crafting",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": [
+      {
+        "item": "minecraft:copper_grate"
+      },
+      {
+        "item": "minecraft:exposed_copper_grate"
+      },
+      {
+        "item": "minecraft:weathered_copper_grate"
+      },
+      {
+        "item": "minecraft:oxidized_copper_grate"
+      },
+      {
+        "item": "minecraft:waxed_copper_grate"
+      },
+      {
+        "item": "minecraft:waxed_exposed_copper_grate"
+      },
+      {
+        "item": "minecraft:waxed_weathered_copper_grate"
+      },
+      {
+        "item": "minecraft:waxed_oxidized_copper_grate"
+      }
+    ],
+    "B": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "id": "minecraft:trial_spawner",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:copper_grate"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:exposed_copper_grate"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:oxidized_copper_grate"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:trial_spawner"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:waxed_copper_grate"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:waxed_exposed_copper_grate"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:waxed_oxidized_copper_grate"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:waxed_weathered_copper_grate"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:weathered_copper_grate"
+    }
+  ]
+}

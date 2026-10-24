@@ -1,0 +1,19 @@
+{
+  "type": "creationcore:creative_crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:creaking_heart"
+    }
+  ],
+  "result": {
+    "id": "minecraft:creaking_spawn_egg",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "minecraft:creaking_spawn_egg"
+    }
+  ]
+}

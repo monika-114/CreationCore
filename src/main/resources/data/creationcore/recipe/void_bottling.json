@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:glass"
+    },
+    "B": {
+      "item": "creationcore:void_bucket"
+    }
+  },
+  "result": {
+    "id": "creationcore:bottled_nothing",
+    "count": 4
+  }
+}
