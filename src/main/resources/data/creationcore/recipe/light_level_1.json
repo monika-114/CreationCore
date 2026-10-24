@@ -23,13 +23,10 @@
       }
     }
   },
-  "fabric:load_conditions": [
+  "neoforge:conditions": [
     {
-      "condition": "fabric:registry_contains",
-      "registry": "minecraft:item",
-      "values": [
-        "minecraft:light"
-      ]
+      "type": "neoforge:item_exists",
+      "item": "minecraft:light"
     }
   ]
 }

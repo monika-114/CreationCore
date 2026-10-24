@@ -18,13 +18,10 @@
     "id": "minecraft:spawner",
     "count": 1
   },
-  "fabric:load_conditions": [
+  "neoforge:conditions": [
     {
-      "condition": "fabric:registry_contains",
-      "registry": "minecraft:item",
-      "values": [
-        "minecraft:spawner"
-      ]
+      "type": "neoforge:item_exists",
+      "item": "minecraft:spawner"
     }
   ]
 }

@@ -18,13 +18,10 @@
     "id": "minecraft:ancient_debris",
     "count": 1
   },
-  "fabric:load_conditions": [
+  "neoforge:conditions": [
     {
-      "condition": "fabric:registry_contains",
-      "registry": "minecraft:item",
-      "values": [
-        "minecraft:ancient_debris"
-      ]
+      "type": "neoforge:item_exists",
+      "item": "minecraft:ancient_debris"
     }
   ]
 }

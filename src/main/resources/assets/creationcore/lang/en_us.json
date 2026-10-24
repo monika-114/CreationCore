@@ -39,7 +39,5 @@
   "item.creationcore.storage_creative_crafting_upgrade": "Creative Crafting Upgrade",
   "upgrade.creationcore.for_sophisticatedbackpacks": "For Sophisticated Backpacks",
   "upgrade.creationcore.for_sophisticatedstorage": "For Sophisticated Storage",
-  "upgrade.creationcore.wrong_storage": "This creative crafting upgrade belongs to a different storage mod",
-  "tag.item.creationcore.creative_core_containers": "Core Ritual Containers",
-  "tag.item.creationcore.recipe_flowers": "Recipe Flowers"
+  "upgrade.creationcore.wrong_storage": "This creative crafting upgrade belongs to a different storage mod"
 }

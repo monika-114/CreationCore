@@ -20,19 +20,14 @@
     "id": "creationcore:backpack_creative_crafting_upgrade",
     "count": 1
   },
-  "fabric:load_conditions": [
+  "neoforge:conditions": [
     {
-      "condition": "fabric:all_mods_loaded",
-      "values": [
-        "sophisticatedbackpacks"
-      ]
+      "type": "neoforge:mod_loaded",
+      "modid": "sophisticatedbackpacks"
     },
     {
-      "condition": "fabric:registry_contains",
-      "registry": "minecraft:item",
-      "values": [
-        "creationcore:backpack_creative_crafting_upgrade"
-      ]
+      "type": "neoforge:item_exists",
+      "item": "creationcore:backpack_creative_crafting_upgrade"
     }
   ]
 }

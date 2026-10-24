@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "AAA",
+    "BCD",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:brass_casing"
+    },
+    "B": {
+      "item": "create:hand_crank"
+    },
+    "C": {
+      "item": "creationcore:creative_core"
+    },
+    "D": {
+      "item": "create:shaft"
+    }
+  },
+  "result": {
+    "id": "create:creative_motor",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "create:creative_motor"
+    }
+  ],
+  "accept_mirrored": true,
+  "show_notification": false
+}

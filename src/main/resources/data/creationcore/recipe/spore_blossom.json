@@ -17,13 +17,10 @@
     "id": "minecraft:spore_blossom",
     "count": 1
   },
-  "fabric:load_conditions": [
+  "neoforge:conditions": [
     {
-      "condition": "fabric:registry_contains",
-      "registry": "minecraft:item",
-      "values": [
-        "minecraft:spore_blossom"
-      ]
+      "type": "neoforge:item_exists",
+      "item": "minecraft:spore_blossom"
     }
   ]
 }

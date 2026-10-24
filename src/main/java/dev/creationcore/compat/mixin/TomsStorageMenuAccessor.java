@@ -7,6 +7,5 @@ import org.spongepowered.asm.mixin.gen.Accessor;
 
 @Mixin(value = StorageTerminalMenu.class, remap = false)
 public interface TomsStorageMenuAccessor {
-  @Accessor("te")
-  StorageTerminalBlockEntity creationcore$terminal();
+    @Accessor("te") StorageTerminalBlockEntity creationcore$terminal();
 }

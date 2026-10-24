@@ -13,48 +13,35 @@ import org.spongepowered.asm.mixin.injection.callback.*;
 
 @Mixin(value = CraftingTerminalBlockEntity.class, remap = false)
 public abstract class TomsCraftingMixin implements RefreshBeforeCrafting {
-  @Shadow private Optional<RecipeHolder<CraftingRecipe>> currentRecipe;
-
-  @Shadow
-  protected abstract void onCraftingMatrixChanged();
-
-  @Unique private boolean creationcore$wasAuthorized;
-
-  @Unique
-  private boolean creationcore$allowed() {
-    var terminal = (CraftingTerminalBlockEntity) (Object) this;
-    return TomsNetworkGate.authorized(terminal.getLevel(), terminal.getBlockPos());
-  }
-
-  @Override
-  public void creationcore$refreshBeforeCrafting() {
-    boolean allowed = creationcore$allowed();
-    if (allowed != creationcore$wasAuthorized) {
-      creationcore$wasAuthorized = allowed;
-      currentRecipe = Optional.empty();
-      onCraftingMatrixChanged();
+    @Shadow private Optional<RecipeHolder<CraftingRecipe>> currentRecipe;
+    @Shadow protected abstract void onCraftingMatrixChanged();
+    @Unique private boolean creationcore$wasAuthorized;
+    @Unique private boolean creationcore$allowed() {
+        var terminal = (CraftingTerminalBlockEntity)(Object)this;
+        return TomsNetworkGate.authorized(terminal.getLevel(), terminal.getBlockPos());
     }
-  }
-
-  @Inject(method = "onCraftingMatrixChanged", at = @At("HEAD"))
-  private void creationcore$invalidate(CallbackInfo ci) {
-    boolean allowed = creationcore$allowed();
-    if (allowed != creationcore$wasAuthorized) currentRecipe = Optional.empty();
-    creationcore$wasAuthorized = allowed;
-  }
-
-  @Inject(method = "updateServer", at = @At("TAIL"))
-  private void creationcore$networkChanged(CallbackInfo ci) {
-    creationcore$refreshBeforeCrafting();
-  }
-
-  @Inject(method = "getRecipe", at = @At("HEAD"), cancellable = true)
-  private void creationcore$find(
-      CraftingInput input, CallbackInfoReturnable<Optional<RecipeHolder<CraftingRecipe>>> cir) {
-    var terminal = (CraftingTerminalBlockEntity) (Object) this;
-    if (creationcore$allowed()) {
-      var recipe = IntegrationRecipes.special(input, terminal.getLevel());
-      if (recipe.isPresent()) cir.setReturnValue(recipe);
+    @Override public void creationcore$refreshBeforeCrafting() {
+        boolean allowed = creationcore$allowed();
+        if (allowed != creationcore$wasAuthorized) {
+            creationcore$wasAuthorized = allowed;
+            currentRecipe = Optional.empty();
+            onCraftingMatrixChanged();
+        }
     }
-  }
+    @Inject(method = "onCraftingMatrixChanged", at = @At("HEAD"))
+    private void creationcore$invalidate(CallbackInfo ci) {
+        boolean allowed = creationcore$allowed();
+        if (allowed != creationcore$wasAuthorized) currentRecipe = Optional.empty();
+        creationcore$wasAuthorized = allowed;
+    }
+    @Inject(method = "updateServer", at = @At("TAIL"))
+    private void creationcore$networkChanged(CallbackInfo ci) { creationcore$refreshBeforeCrafting(); }
+    @Inject(method = "getRecipe", at = @At("HEAD"), cancellable = true)
+    private void creationcore$find(CraftingInput input, CallbackInfoReturnable<Optional<RecipeHolder<CraftingRecipe>>> cir) {
+        var terminal = (CraftingTerminalBlockEntity)(Object)this;
+        if (creationcore$allowed()) {
+            var recipe = IntegrationRecipes.special(input, terminal.getLevel());
+            if (recipe.isPresent()) cir.setReturnValue(recipe);
+        }
+    }
 }

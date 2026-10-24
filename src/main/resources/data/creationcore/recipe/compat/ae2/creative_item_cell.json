@@ -1,0 +1,25 @@
+{
+  "type": "creationcore:creative_crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "creationcore:creative_core"
+    },
+    {
+      "item": "ae2:item_cell_housing"
+    }
+  ],
+  "result": {
+    "id": "ae2:creative_storage_cell",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "ae2:creative_storage_cell"
+    }
+  ]
+}

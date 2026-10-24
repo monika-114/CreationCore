@@ -9,8 +9,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(AbstractContainerMenu.class)
 public abstract class ContainerCraftingClickMixin {
-  @Inject(method = "clicked", at = @At("HEAD"))
-  private void creationcore$refresh(CallbackInfo ci) {
-    if (this instanceof RefreshBeforeCrafting menu) menu.creationcore$refreshBeforeCrafting();
-  }
+    @Inject(method = "clicked", at = @At("HEAD"))
+    private void creationcore$refresh(CallbackInfo ci) {
+        if (this instanceof RefreshBeforeCrafting menu) menu.creationcore$refreshBeforeCrafting();
+    }
 }

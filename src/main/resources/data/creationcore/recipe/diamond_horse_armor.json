@@ -15,13 +15,10 @@
     "id": "minecraft:diamond_horse_armor",
     "count": 1
   },
-  "fabric:load_conditions": [
+  "neoforge:conditions": [
     {
-      "condition": "fabric:registry_contains",
-      "registry": "minecraft:item",
-      "values": [
-        "minecraft:diamond_horse_armor"
-      ]
+      "type": "neoforge:item_exists",
+      "item": "minecraft:diamond_horse_armor"
     }
   ]
 }

@@ -17,13 +17,10 @@
     "id": "minecraft:large_fern",
     "count": 1
   },
-  "fabric:load_conditions": [
+  "neoforge:conditions": [
     {
-      "condition": "fabric:registry_contains",
-      "registry": "minecraft:item",
-      "values": [
-        "minecraft:large_fern"
-      ]
+      "type": "neoforge:item_exists",
+      "item": "minecraft:large_fern"
     }
   ]
 }

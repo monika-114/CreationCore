@@ -6,28 +6,24 @@
       "item": "minecraft:villager_spawn_egg"
     },
     {
-      "fabric:type": "fabric:components",
-      "base": {
-        "item": "minecraft:potion"
-      },
+      "type": "neoforge:components",
+      "items": "minecraft:potion",
       "components": {
         "minecraft:potion_contents": {
           "potion": "minecraft:invisibility"
         }
-      }
+      },
+      "strict": false
     }
   ],
   "result": {
     "id": "minecraft:wandering_trader_spawn_egg",
     "count": 1
   },
-  "fabric:load_conditions": [
+  "neoforge:conditions": [
     {
-      "condition": "fabric:registry_contains",
-      "registry": "minecraft:item",
-      "values": [
-        "minecraft:wandering_trader_spawn_egg"
-      ]
+      "type": "neoforge:item_exists",
+      "item": "minecraft:wandering_trader_spawn_egg"
     }
   ]
 }

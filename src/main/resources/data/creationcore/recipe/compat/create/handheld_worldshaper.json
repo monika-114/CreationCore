@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " A    ",
+    "ABAAAA",
+    " AC   "
+  ],
+  "key": {
+    "A": {
+      "item": "creationcore:creative_core"
+    },
+    "B": {
+      "item": "create:extendo_grip"
+    },
+    "C": {
+      "item": "create:brass_hand"
+    }
+  },
+  "result": {
+    "id": "create:handheld_worldshaper",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "create:handheld_worldshaper"
+    }
+  ],
+  "accept_mirrored": true,
+  "show_notification": false
+}
