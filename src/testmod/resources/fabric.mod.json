@@ -1,0 +1,1 @@
+{"schemaVersion": 1, "id": "creationcore_test", "version": "1", "name": "Creation Core verification", "environment": "*", "entrypoints": {"main": ["dev.creationcore.check.TestEntrypoint"], "client": ["dev.creationcore.check.ClientTestEntrypoint"]}, "depends": {"creationcore": "*"}, "mixins": ["creationcore-test.mixins.json"]}

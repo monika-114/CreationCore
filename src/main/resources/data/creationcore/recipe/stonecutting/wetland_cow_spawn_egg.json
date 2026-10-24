@@ -7,10 +7,13 @@
     "id": "minecraft:cow_spawn_egg",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:cow_spawn_egg"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:cow_spawn_egg"
+      ]
     }
   ]
 }

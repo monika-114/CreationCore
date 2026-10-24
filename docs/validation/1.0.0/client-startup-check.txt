@@ -1,5 +1,0 @@
-PASS: client reached loaded title screen with actual installed mods
-PASS: all nine introduction pages build real JEI scroll boxes
-PASS: wheel down changes real introduction widget scroll position
-PASS: wheel up returns introduction text toward the start
-ALL CLIENT STARTUP CHECKS PASSED

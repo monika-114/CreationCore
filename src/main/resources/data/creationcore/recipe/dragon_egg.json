@@ -21,10 +21,13 @@
     "id": "minecraft:dragon_egg",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:dragon_egg"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:dragon_egg"
+      ]
     }
   ]
 }

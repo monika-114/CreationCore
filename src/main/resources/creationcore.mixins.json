@@ -11,9 +11,16 @@
     "CrafterBlockMixin",
     "CrafterMenuMixin",
     "CrafterBlockEntityMixin",
-    "FluidPlacementMixin",
-    "RecipeManagerMixin",
-    "ContainerCraftingClickMixin"
+    "ContainerCraftingClickMixin",
+    "EntityPersistentDataMixin",
+    "ItemEntityTickMixin",
+    "BlockDropsMixin",
+    "ExplosionRitualMixin",
+    "DragonDeathMixin",
+    "EndPortalRitualMixin",
+    "ItemStackDurabilityMixin",
+    "EnchantmentRulesMixin",
+    "EnchantmentLevelMixin"
   ],
   "client": [
     "client.ClientLevelMixin"

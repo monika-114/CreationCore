@@ -6,8 +6,10 @@ import org.spongepowered.asm.mixin.Mixin;
 
 @Mixin(value = CraftingTerminalMenu.class, remap = false)
 public abstract class TomsCraftingMenuMixin implements RefreshBeforeCrafting {
-    @Override public void creationcore$refreshBeforeCrafting() {
-        var terminal = ((TomsStorageMenuAccessor)this).creationcore$terminal();
-        if (terminal instanceof RefreshBeforeCrafting refresh) refresh.creationcore$refreshBeforeCrafting();
-    }
+  @Override
+  public void creationcore$refreshBeforeCrafting() {
+    var terminal = ((TomsStorageMenuAccessor) this).creationcore$terminal();
+    if (terminal instanceof RefreshBeforeCrafting refresh)
+      refresh.creationcore$refreshBeforeCrafting();
+  }
 }

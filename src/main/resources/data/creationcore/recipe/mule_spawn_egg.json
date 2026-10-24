@@ -13,10 +13,13 @@
     "id": "minecraft:mule_spawn_egg",
     "count": 2
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:mule_spawn_egg"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:mule_spawn_egg"
+      ]
     }
   ]
 }

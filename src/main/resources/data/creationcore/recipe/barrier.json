@@ -18,10 +18,13 @@
     "id": "minecraft:barrier",
     "count": 8
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:barrier"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:barrier"
+      ]
     }
   ]
 }

@@ -10,14 +10,20 @@
     "id": "minecraft:happy_ghast_spawn_egg",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:dried_ghast"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:dried_ghast"
+      ]
     },
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:happy_ghast_spawn_egg"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:happy_ghast_spawn_egg"
+      ]
     }
   ]
 }

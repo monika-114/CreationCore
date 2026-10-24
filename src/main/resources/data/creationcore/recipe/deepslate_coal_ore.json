@@ -34,10 +34,13 @@
     "id": "minecraft:deepslate_coal_ore",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:deepslate_coal_ore"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:deepslate_coal_ore"
+      ]
     }
   ]
 }

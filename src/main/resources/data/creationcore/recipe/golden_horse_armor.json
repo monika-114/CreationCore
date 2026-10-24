@@ -15,10 +15,13 @@
     "id": "minecraft:golden_horse_armor",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:golden_horse_armor"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:golden_horse_armor"
+      ]
     }
   ]
 }
