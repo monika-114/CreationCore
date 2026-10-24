@@ -22,10 +22,13 @@
     "count": 1
   },
   "group": "creationcore:disc_copy",
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:music_disc_otherside"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:music_disc_otherside"
+      ]
     }
   ]
 }

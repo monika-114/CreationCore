@@ -39,5 +39,7 @@
   "item.creationcore.storage_creative_crafting_upgrade": "创造合成升级",
   "upgrade.creationcore.for_sophisticatedbackpacks": "适用于精妙背包",
   "upgrade.creationcore.for_sophisticatedstorage": "适用于精妙存储",
-  "upgrade.creationcore.wrong_storage": "此创造合成升级不适用于该存储类型"
+  "upgrade.creationcore.wrong_storage": "此创造合成升级不适用于该存储类型",
+  "tag.item.creationcore.creative_core_containers": "创造核心仪式容器",
+  "tag.item.creationcore.recipe_flowers": "配方用花"
 }

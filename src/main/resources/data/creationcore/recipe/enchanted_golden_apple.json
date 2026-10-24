@@ -18,10 +18,13 @@
     "id": "minecraft:enchanted_golden_apple",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:enchanted_golden_apple"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:enchanted_golden_apple"
+      ]
     }
   ]
 }

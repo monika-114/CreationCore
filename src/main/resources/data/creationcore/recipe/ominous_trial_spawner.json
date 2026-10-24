@@ -19,10 +19,13 @@
       "minecraft:item_name": "{\"translate\": \"item.creationcore.ominous_trial_spawner\"}"
     }
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:trial_spawner"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:trial_spawner"
+      ]
     }
   ]
 }

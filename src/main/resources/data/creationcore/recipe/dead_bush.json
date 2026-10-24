@@ -15,10 +15,13 @@
     "id": "minecraft:dead_bush",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:dead_bush"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:dead_bush"
+      ]
     }
   ]
 }

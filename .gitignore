@@ -1,11 +1,7 @@
 .gradle/
 build/
-run/
-run-data/
+libs/
+devlibs/
+run*/
 .idea/
 *.iml
-out/
-.DS_Store
-logs/
-__pycache__/
-*.pyc

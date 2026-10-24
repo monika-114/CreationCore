@@ -27,10 +27,13 @@
     "id": "minecraft:ender_dragon_spawn_egg",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:ender_dragon_spawn_egg"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:ender_dragon_spawn_egg"
+      ]
     }
   ]
 }

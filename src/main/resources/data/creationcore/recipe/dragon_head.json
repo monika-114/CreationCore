@@ -33,10 +33,13 @@
     "id": "minecraft:dragon_head",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:dragon_head"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:dragon_head"
+      ]
     }
   ]
 }

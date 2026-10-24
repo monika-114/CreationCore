@@ -9,12 +9,14 @@ import net.p3pp3rf1y.sophisticatedcore.upgrades.crafting.CraftingUpgradeContaine
 import net.p3pp3rf1y.sophisticatedcore.util.RecipeHelper;
 
 public final class SophisticatedRecipes {
-    public static List<RecipeHolder<CraftingRecipe>> find(CraftingUpgradeContainer menu, CraftingInput input, Level level) {
-        var normal = RecipeHelper.safeGetRecipesFor(RecipeType.CRAFTING, input, level);
-        if (!(menu.getUpgradeStack().getItem() instanceof CreativeCraftingUpgradeItem)) return normal;
-        var recipes = new ArrayList<>(IntegrationRecipes.specialMatches(input, level));
-        recipes.addAll(normal);
-        return recipes;
-    }
-    private SophisticatedRecipes() {}
+  public static List<RecipeHolder<CraftingRecipe>> find(
+      CraftingUpgradeContainer menu, CraftingInput input, Level level) {
+    var normal = RecipeHelper.safeGetRecipesFor(RecipeType.CRAFTING, input, level);
+    if (!(menu.getUpgradeStack().getItem() instanceof CreativeCraftingUpgradeItem)) return normal;
+    var recipes = new ArrayList<>(IntegrationRecipes.specialMatches(input, level));
+    recipes.addAll(normal);
+    return recipes;
+  }
+
+  private SophisticatedRecipes() {}
 }

@@ -18,10 +18,13 @@
     "id": "minecraft:infested_deepslate",
     "count": 8
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:infested_deepslate"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:infested_deepslate"
+      ]
     }
   ]
 }

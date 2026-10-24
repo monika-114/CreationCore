@@ -17,10 +17,13 @@
     "id": "minecraft:soul_soil",
     "count": 2
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:soul_soil"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:soul_soil"
+      ]
     }
   ]
 }

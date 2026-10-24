@@ -19,10 +19,13 @@
       "minecraft:item_name": "{\"translate\": \"item.creationcore.ominous_vault\"}"
     }
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:vault"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:vault"
+      ]
     }
   ]
 }

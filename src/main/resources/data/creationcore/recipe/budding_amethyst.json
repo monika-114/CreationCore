@@ -18,10 +18,13 @@
     "id": "minecraft:budding_amethyst",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:budding_amethyst"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:budding_amethyst"
+      ]
     }
   ]
 }

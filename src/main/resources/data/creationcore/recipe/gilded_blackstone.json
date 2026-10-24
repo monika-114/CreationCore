@@ -34,10 +34,13 @@
     "id": "minecraft:gilded_blackstone",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:gilded_blackstone"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:gilded_blackstone"
+      ]
     }
   ]
 }

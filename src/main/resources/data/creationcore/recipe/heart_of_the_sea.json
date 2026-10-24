@@ -18,10 +18,13 @@
     "id": "minecraft:heart_of_the_sea",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:heart_of_the_sea"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:heart_of_the_sea"
+      ]
     }
   ]
 }

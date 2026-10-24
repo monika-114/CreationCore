@@ -7,10 +7,13 @@
     "id": "minecraft:silverfish_spawn_egg",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:silverfish_spawn_egg"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:silverfish_spawn_egg"
+      ]
     }
   ]
 }

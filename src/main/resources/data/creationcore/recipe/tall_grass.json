@@ -17,10 +17,13 @@
     "id": "minecraft:tall_grass",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:tall_grass"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:tall_grass"
+      ]
     }
   ]
 }

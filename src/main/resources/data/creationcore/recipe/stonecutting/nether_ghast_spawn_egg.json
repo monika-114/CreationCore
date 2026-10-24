@@ -7,10 +7,13 @@
     "id": "minecraft:ghast_spawn_egg",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:ghast_spawn_egg"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:ghast_spawn_egg"
+      ]
     }
   ]
 }

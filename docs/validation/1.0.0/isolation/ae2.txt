@@ -1,5 +1,0 @@
-PASS: backpack upgrade registered exactly when its own mod is installed
-PASS: storage upgrade registered exactly when its own mod is installed
-PASS: base creative worktable and updated turtle recipe work in this mod combination
-PASS: installed integrations link successfully without any missing optional mod classes
-ALL ISOLATION CHECKS PASSED

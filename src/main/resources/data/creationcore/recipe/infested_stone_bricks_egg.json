@@ -18,10 +18,13 @@
     "id": "minecraft:infested_stone_bricks",
     "count": 8
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:infested_stone_bricks"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:infested_stone_bricks"
+      ]
     }
   ]
 }

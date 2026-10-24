@@ -24,10 +24,13 @@
       }
     }
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:suspicious_gravel"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:suspicious_gravel"
+      ]
     }
   ]
 }

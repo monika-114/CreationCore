@@ -21,10 +21,13 @@
     "id": "minecraft:end_portal_frame",
     "count": 1
   },
-  "neoforge:conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "neoforge:item_exists",
-      "item": "minecraft:end_portal_frame"
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "minecraft:end_portal_frame"
+      ]
     }
   ]
 }

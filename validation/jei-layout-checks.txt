@@ -1,0 +1,114 @@
+PASS: real JEI registered introduction category in loaded developer world
+PASS: JEI has all nine introduction pages
+PASS: JEI lists every loaded creative recipe
+PASS: physical 1920x1080 client uses actual GUI scale 4
+PASS: introduction has reverted to plain text without scroll widgets
+PASS: Chinese introduction 0 has no explicit newline
+PASS: complete Chinese page 0 text fits at GUI scale 4
+PASS: actual JEI frame for case 0 remains within screen bottom
+PASS: Chinese introduction 1 has no explicit newline
+PASS: complete Chinese page 1 text fits at GUI scale 4
+PASS: actual JEI frame for case 1 remains within screen bottom
+PASS: Chinese introduction 2 has no explicit newline
+PASS: complete Chinese page 2 text fits at GUI scale 4
+PASS: actual JEI frame for case 2 remains within screen bottom
+PASS: Chinese introduction 3 has no explicit newline
+PASS: complete Chinese page 3 text fits at GUI scale 4
+PASS: actual JEI frame for case 3 remains within screen bottom
+PASS: Chinese introduction 4 has no explicit newline
+PASS: complete Chinese page 4 text fits at GUI scale 4
+PASS: actual JEI frame for case 4 remains within screen bottom
+PASS: Chinese introduction 5 has no explicit newline
+PASS: complete Chinese page 5 text fits at GUI scale 4
+PASS: actual JEI frame for case 5 remains within screen bottom
+PASS: Chinese introduction 6 has no explicit newline
+PASS: complete Chinese page 6 text fits at GUI scale 4
+PASS: actual JEI frame for case 6 remains within screen bottom
+PASS: Chinese introduction 7 has no explicit newline
+PASS: complete Chinese page 7 text fits at GUI scale 4
+PASS: actual JEI frame for case 7 remains within screen bottom
+PASS: Chinese introduction 8 has no explicit newline
+PASS: complete Chinese page 8 text fits at GUI scale 4
+PASS: actual JEI frame for case 8 remains within screen bottom
+PASS: English introduction 0 has no explicit newline
+PASS: complete English page 0 text fits at GUI scale 4
+PASS: actual JEI frame for case 9 remains within screen bottom
+PASS: English introduction 1 has no explicit newline
+PASS: complete English page 1 text fits at GUI scale 4
+PASS: actual JEI frame for case 10 remains within screen bottom
+PASS: English introduction 2 has no explicit newline
+PASS: complete English page 2 text fits at GUI scale 4
+PASS: actual JEI frame for case 11 remains within screen bottom
+PASS: English introduction 3 has no explicit newline
+PASS: complete English page 3 text fits at GUI scale 4
+PASS: actual JEI frame for case 12 remains within screen bottom
+PASS: English introduction 4 has no explicit newline
+PASS: complete English page 4 text fits at GUI scale 4
+PASS: actual JEI frame for case 13 remains within screen bottom
+PASS: English introduction 5 has no explicit newline
+PASS: complete English page 5 text fits at GUI scale 4
+PASS: actual JEI frame for case 14 remains within screen bottom
+PASS: English introduction 6 has no explicit newline
+PASS: complete English page 6 text fits at GUI scale 4
+PASS: actual JEI frame for case 15 remains within screen bottom
+PASS: English introduction 7 has no explicit newline
+PASS: complete English page 7 text fits at GUI scale 4
+PASS: actual JEI frame for case 16 remains within screen bottom
+PASS: English introduction 8 has no explicit newline
+PASS: complete English page 8 text fits at GUI scale 4
+PASS: actual JEI frame for case 17 remains within screen bottom
+PASS: Chinese introduction 0 has no explicit newline
+PASS: complete Chinese page 0 text fits at GUI scale 2
+PASS: actual JEI frame for case 18 remains within screen bottom
+PASS: Chinese introduction 1 has no explicit newline
+PASS: complete Chinese page 1 text fits at GUI scale 2
+PASS: actual JEI frame for case 19 remains within screen bottom
+PASS: Chinese introduction 2 has no explicit newline
+PASS: complete Chinese page 2 text fits at GUI scale 2
+PASS: actual JEI frame for case 20 remains within screen bottom
+PASS: Chinese introduction 3 has no explicit newline
+PASS: complete Chinese page 3 text fits at GUI scale 2
+PASS: actual JEI frame for case 21 remains within screen bottom
+PASS: Chinese introduction 4 has no explicit newline
+PASS: complete Chinese page 4 text fits at GUI scale 2
+PASS: actual JEI frame for case 22 remains within screen bottom
+PASS: Chinese introduction 5 has no explicit newline
+PASS: complete Chinese page 5 text fits at GUI scale 2
+PASS: actual JEI frame for case 23 remains within screen bottom
+PASS: Chinese introduction 6 has no explicit newline
+PASS: complete Chinese page 6 text fits at GUI scale 2
+PASS: actual JEI frame for case 24 remains within screen bottom
+PASS: Chinese introduction 7 has no explicit newline
+PASS: complete Chinese page 7 text fits at GUI scale 2
+PASS: actual JEI frame for case 25 remains within screen bottom
+PASS: Chinese introduction 8 has no explicit newline
+PASS: complete Chinese page 8 text fits at GUI scale 2
+PASS: actual JEI frame for case 26 remains within screen bottom
+PASS: English introduction 0 has no explicit newline
+PASS: complete English page 0 text fits at GUI scale 2
+PASS: actual JEI frame for case 27 remains within screen bottom
+PASS: English introduction 1 has no explicit newline
+PASS: complete English page 1 text fits at GUI scale 2
+PASS: actual JEI frame for case 28 remains within screen bottom
+PASS: English introduction 2 has no explicit newline
+PASS: complete English page 2 text fits at GUI scale 2
+PASS: actual JEI frame for case 29 remains within screen bottom
+PASS: English introduction 3 has no explicit newline
+PASS: complete English page 3 text fits at GUI scale 2
+PASS: actual JEI frame for case 30 remains within screen bottom
+PASS: English introduction 4 has no explicit newline
+PASS: complete English page 4 text fits at GUI scale 2
+PASS: actual JEI frame for case 31 remains within screen bottom
+PASS: English introduction 5 has no explicit newline
+PASS: complete English page 5 text fits at GUI scale 2
+PASS: actual JEI frame for case 32 remains within screen bottom
+PASS: English introduction 6 has no explicit newline
+PASS: complete English page 6 text fits at GUI scale 2
+PASS: actual JEI frame for case 33 remains within screen bottom
+PASS: English introduction 7 has no explicit newline
+PASS: complete English page 7 text fits at GUI scale 2
+PASS: actual JEI frame for case 34 remains within screen bottom
+PASS: English introduction 8 has no explicit newline
+PASS: complete English page 8 text fits at GUI scale 2
+PASS: actual JEI frame for case 35 remains within screen bottom
+ALL JEI LAYOUT CHECKS PASSED
